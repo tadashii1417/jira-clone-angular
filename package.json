@@ -4,7 +4,8 @@
   "description": "clone jira using angular",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start:front": "cd frontend && npm start",
+    "start": "npm run start:front"
   },
   "repository": {
     "type": "git",
